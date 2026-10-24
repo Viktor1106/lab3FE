@@ -74,6 +74,17 @@ h2 {
     clear: both;
 }
 
+.float-layout .middle-row {
+    overflow: hidden;
+    /* Hides the artificially extended backgrounds */
+}
+
+.float-layout .text-left,
+.float-layout .text-right {
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+}
+
 .float-layout .text-left {
     float: left;
     width: 50%;
